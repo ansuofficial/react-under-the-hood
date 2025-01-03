@@ -18,6 +18,10 @@
     const app = document.getElementById("app");
     const root = ReactDOM.createRoot(app);
 
-    root.render(<h2>Hello world</h2>);
+    function Header() {
+      return <h1>Hello world this is a header</h1>
+    }
+
+    root.render(Header);
   </script>
 </html>
